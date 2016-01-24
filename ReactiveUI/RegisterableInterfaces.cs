@@ -343,7 +343,7 @@ namespace ReactiveUI
         Tuple<IObservable<Unit>, IObservable<Unit>> GetActivationForView(IActivatable view);
     }
 
-    internal interface IPlatformOperations
+    public interface IPlatformOperations
     {
         string GetOrientation();
     }
